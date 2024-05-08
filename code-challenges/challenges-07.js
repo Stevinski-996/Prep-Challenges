@@ -27,9 +27,7 @@ const objLat = (obj) => {
     
         // Construct the output sentence  
         let output = `my name is ${firstNameUpper} ${lastNameUpper} I am ${obj.age} YO, and I love ${obj.hobby}.`; 
-    
-        console.log(output);
-    ;
+        return  output;
     };
 // -------------------------------------------------------------------------------------------------------
 
